@@ -1,0 +1,50 @@
+body {
+  font-family: 'Mv Boli', monospace;
+  background-color: #eeeeee;
+  user-select: none;
+}
+
+#container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 20%;
+}
+
+#currentNumber {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  background: #bdbdbd;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+td.disabled {
+  cursor: default;
+}
+
+td.clicked {
+  background-color: #e53935;
+}
+
+#btn {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px 0;
+  cursor: pointer;
+  border-top: 2px solid #bdbdbd;
+}
